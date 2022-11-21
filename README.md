@@ -1,6 +1,14 @@
 # file-resizer
  A few useful tools for resizing and fixing file extensions
 
+# NOTE: Preqrequisites
+
+You need to have the following:
+
+1. PIL / Pillow
+2. Python 3+
+3. ImageMagick - https://imagemagick.org/script/download.php
+
 # How to use the tools
 
 ## imageDimensions.py : Get a list of all assets needed to be converted
