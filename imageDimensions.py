@@ -9,11 +9,12 @@ ext_list = ['.png', '.jpg']
 pixels_to_resize_to = 128
 #File that holds all paths of assets to be converted; leave as is to be in the current working directory
 paths_of_queued_assets = 'assetsToConvert.txt'
+#The ABSOLUTE path of the folder you want to recursively convert assets in
+base_path = r'C:\Users\User\Desktop\weapons'
 
 #===MAIN
 
 def main():
-    base_path = os.getcwd()
     file_output = ''
     path_output = ''
 
